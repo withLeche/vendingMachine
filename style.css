@@ -1,4 +1,4 @@
-/* RESET */
+/* reset */
 body,
 h1,
 h2,
@@ -20,7 +20,6 @@ button {
   font: inherit;
   color: inherit;
 }
-
 button:not(:disabled) {
   cursor: pointer;
 }
@@ -37,7 +36,7 @@ button:not(:disabled) {
   position: absolute;
 }
 
-/* layout */
+/* layout-------------------- */
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
@@ -54,7 +53,6 @@ section {
 }
 
 /* pc */
-
 @media (min-width: 748px) {
   body {
     background: #eae8fe;
@@ -71,6 +69,7 @@ section {
       "section1 section3";
     gap: 20px 28px;
   }
+
   .section1 {
     grid-area: section1;
   }
@@ -87,7 +86,6 @@ section {
   }
 }
 /* mobile */
-
 @media (max-width: 747px) {
   h1 {
     margin-bottom: 18px;
@@ -98,7 +96,6 @@ section {
   padding: 31px 27px 28px;
 }
 /* 판매 음료 */
-
 .cola-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -119,7 +116,6 @@ section {
 .cola-price {
   display: block;
 }
-
 .cola-img {
   width: 36px;
   margin: auto;
@@ -136,6 +132,7 @@ section {
   padding: 2px 0;
   border-radius: 20px;
 }
+
 .soldout {
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
@@ -149,7 +146,7 @@ section {
   display: inline-block;
   color: #eae8fe;
   border: 6px double #eae8fe;
-  padding: 0px 8px;
+  padding: 0 8px;
   transform: rotate(-20deg) translate(-10px, 30px);
 }
 
@@ -169,13 +166,11 @@ section {
   align-items: center;
   padding: 6px 10px;
 }
-
 .bg-box .title,
 .bg-box p {
   font-size: 14px;
   font-weight: 500;
 }
-
 .bg-box .title::after {
   content: " :";
 }
@@ -187,7 +182,7 @@ section {
 
 .btn,
 .btn-get {
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   font-size: 13px;
 }
@@ -195,14 +190,12 @@ section {
   background: #6327fe;
   color: #fff;
 }
-
 #input-money {
   border: 1px solid #bdbdbd;
   border-radius: 5px;
   padding: 0 6px;
   font-size: 13px;
 }
-
 #input-money::placeholder {
   color: #bdbdbd;
 }
@@ -240,8 +233,6 @@ section {
   margin-left: auto;
   /* margin: auto 0 auto auto; */
 }
-
-/* section3 */
 
 .section3 {
   padding: 25px 27px 26px;
